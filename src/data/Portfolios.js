@@ -1,59 +1,59 @@
-import css1 from '../img/portImages/cv_css.png';
-import css2 from '../img/portImages/ms.png';
-import react1 from '../img/portImages/react_styled.png';
-import img2 from '../img/portImages/maya-4.jpg';
-import img3 from '../img/portImages/maya-3.jpg';
+import kinoroom from '../img/portImages/kinoroom.png';
+import CakeSchool from '../img/portImages/CakeSchool.png';
+import Portfolio from '../img/portImages/Portfolio.png';
+import DIM from '../img/portImages/DIM.png';
+import Calculator from '../img/portImages/Calculator-2.png';
 
 const portfolios = [
     {
         id: 1,
-        category: 'CSS',
-        image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
+        category: 'JavaScript',
+        image: kinoroom,
+        link1: 'https://kino-room.netlify.app/',
+        link2: 'https://kino-room.netlify.app/',
+        title: 'KINO ROOM',
+        text: 'HTML,CSS,JAVASCRIPT,RESPONSIVE DESIGN'
     },
     {
         id: 2,
-        category: 'Python',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        category: 'REACT',
+        image: CakeSchool,
+        link1: 'https://emilyaismayilova.az/',
+        link2: 'https://emilyaismayilova.az/',
+        title: 'Cake School',
+        text: 'HTML,CSS,REACT,RESPONSIVE DESIGN'
     },
     {
         id: 3,
-        category: 'Javascript',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        category: 'REACT',
+        image: Portfolio,
+        link1: 'https://dim-e-xidmetler.netlify.app/',
+        link2: 'https://dim-e-xidmetler.netlify.app/',
+        title: 'MY Portfolio',
+        text: 'HTML,CSS,REACT,Styled Component'
     },
     {
         id: 4,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        category: 'JAVASCRİPT',
+        image: DIM,
+        link1: 'https://dim-e-xidmetler.netlify.app/',
+        link2: 'https://dim-e-xidmetler.netlify.app/',
+        title: 'State Examination Center',
+        text: 'HTML,CSS,REACT,RESPONSIVE DESIGN'
     },
     {
         id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        category: 'REACT',
+        image: Calculator,
+        link1: 'https://statuesque-sunshine-ec29f6.netlify.app/',
+        link2: 'https://statuesque-sunshine-ec29f6.netlify.app/',
+        title: 'Calculator',
+        text: 'HTML,CSS,REACT'
     },
     {
         id: 6,
         category: 'React JS',
-        image: react1,
+        image: Portfolio,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
         title: 'Responsive Portfolio Website',
@@ -62,7 +62,7 @@ const portfolios = [
     {
         id: 7,
         category: 'CSS',
-        image: css2,
+        image: CakeSchool,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
         title: 'Microsoft Website Clone',
