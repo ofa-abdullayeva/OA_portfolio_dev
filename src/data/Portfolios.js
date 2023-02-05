@@ -52,7 +52,7 @@ const portfolios = [
     },
     {
         id: 6,
-        category: 'React JS',
+        category: 'REACT',
         image: Portfolio,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',

@@ -17,7 +17,7 @@ function Button({ filter, button }) {
 
 const ButtonStyled = styled.button`
   padding: 1rem 2rem;
-  background-color:#ed6363;
+  background-color: var(--primary-color);
   border: none;
   color: var(--white-color);
   cursor: pointer;
