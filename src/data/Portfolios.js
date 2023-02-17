@@ -1,7 +1,7 @@
 import kinoroom from '../img/portImages/kinoroom.png';
 import CakeSchool from '../img/portImages/CakeSchool.png';
 import Portfolio from '../img/portImages/Portfolio.png';
-import DIM from '../img/portImages/DIM.png';
+import Movieproject from '../img/portImages/movieproject.png';
 import Calculator from '../img/portImages/Calculator-2.png';
 
 const portfolios = [
@@ -19,7 +19,7 @@ const portfolios = [
         category: 'REACT',
         image: CakeSchool,
         link1: 'https://emilyaismayilova.az/',
-        link2: 'https://emilyaismayilova.az/',
+        link2: 'https://emilyacakeschool.netlify.app/',
         title: 'Cake School',
         text: 'HTML,CSS,REACT,RESPONSIVE DESIGN'
     },
@@ -27,19 +27,19 @@ const portfolios = [
         id: 3,
         category: 'REACT',
         image: Portfolio,
-        link1: 'https://dim-e-xidmetler.netlify.app/',
-        link2: 'https://dim-e-xidmetler.netlify.app/',
+        link1: 'https://github.com/ofa-abdullayeva/OA_portfolio_dev',
+        link2: 'https://ofeliya-portfolio-dev.netlify.app/',
         title: 'MY Portfolio',
         text: 'HTML,CSS,REACT,Styled Component'
     },
     {
         id: 4,
         category: 'JAVASCRİPT',
-        image: DIM,
+        image: Movieproject,
         link1: 'https://dim-e-xidmetler.netlify.app/',
-        link2: 'https://dim-e-xidmetler.netlify.app/',
-        title: 'State Examination Center',
-        text: 'HTML,CSS,REACT,RESPONSIVE DESIGN'
+        link2: 'https://movieprojectreactcontextapi.netlify.app/',
+        title: 'MOVIE PROJECT',
+        text: 'REACT,CONTEXT API'
     },
     {
         id: 5,

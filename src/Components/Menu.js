@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // import Portfolios from '../data/Portfolios'
 import { BsGithub } from "react-icons/bs";
-import { FaPinterestSquare } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
 // import Portfolios from "../data/Portfolios";
 
 function Menu({ menuItem }) {
@@ -22,7 +22,7 @@ function Menu({ menuItem }) {
                   </li>
                   <li>
                     <a href={item.link2}>
-                      <FaPinterestSquare />
+                      <SiNetlify />
                     </a>
                   </li>
                 </ul>
@@ -38,9 +38,13 @@ function Menu({ menuItem }) {
 }
 
 const MenuItemStyled = styled.div`
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 100%;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem; 
   @media screen and (max-width: 920px) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -49,7 +53,9 @@ const MenuItemStyled = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
+    /* width: 90%; */
     .portfolio-content {
+      width: 100%;
       display: block;
       position: relative;
       overflow: hidden;
@@ -58,7 +64,7 @@ const MenuItemStyled = styled.div`
       }
       img {
         width: 100%;
-        height: 30vh;
+        /* height: 30vh; */
         object-fit: cover;
       }
       ul {

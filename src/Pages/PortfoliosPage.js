@@ -6,9 +6,7 @@ import Menu from "../Components/Menu";
 import Button from "../Components/Button";
 import portfolios from "../data/Portfolios";
 
-const allButtons = [
-  "All",
-  ...new Set(portfolios.map(item => item.category))];
+const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
 
 function PortfolioPage() {
   const [menuItem, setMenuItem] = useState(Portfolios);
@@ -28,6 +26,7 @@ function PortfolioPage() {
       <InnerLayout>
         {/* <div>PortfolioPage</div> */}
         <Button filter={filter} button={allButtons} />
+
         <Menu menuItem={menuItem} />
       </InnerLayout>
     </MainLayout>

@@ -19,6 +19,7 @@ const TitleStyled = styled.div`
         text-transform: uppercase;
         position: relative;
         padding-bottom: .7rem;
+        /* padding-top: 2rem; */
         @media screen and (max-width: 496px) {
               font-size: 2.8rem;
          }
