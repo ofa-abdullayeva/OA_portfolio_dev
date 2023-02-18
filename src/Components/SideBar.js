@@ -4,10 +4,10 @@ import Navigation from './Navigation';
 
 // import GlobalStyle from '../styles/GlobalSyle'
 
-function SideBar({navToggle}) {
+function SideBar({navToggle, setNavToggle}) {
   return (
     <SideBarStyled className={`${navToggle? 'nav-toggle' : ''}`}>
-      <Navigation/>
+      <Navigation setNavToggle={setNavToggle} navToggle={navToggle}/>
     </SideBarStyled>
   )
 }

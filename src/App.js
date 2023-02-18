@@ -33,7 +33,7 @@ function App() {
   //comment
   return (
     <div className="App">
-      <SideBar navToggle={navToggle}/>
+      <SideBar navToggle={navToggle} setNavToggle={setNavToggle}/>
       <div className="theme">
         <div className="light-dark-mode">
           <div className="left-content">

@@ -13,7 +13,7 @@ function Menu({ menuItem }) {
           <div className="grid-item" key={item.id}>
             <div className="portfolio-content">
               <div className="portfolio-image">
-                <img src={item.image} alt="" />
+                <div className="portfolio-image-box"><img src={item.image} alt="" /></div>
                 <ul>
                   <li>
                     <a href={item.link1}>
@@ -52,32 +52,39 @@ const MenuItemStyled = styled.div`
   @media screen and (max-width: 670px) {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .grid-item {
     width: 100%;
     height: auto;
-    
+
     .portfolio-content {
       /* width: 100%; */
       height: 50vh;
       display: block;
       position: relative;
       overflow: hidden;
+
       h6 {
         font-size: 1.5rem;
       }
-      img {
-        width: 100%;
-        /* height: 30vh; */
-        object-fit: cover;
+
+      .portfolio-image {
+        img {
+          width: 100%;
+          height: 30vh;
+          object-fit: cover;
+        }
       }
+
       ul {
         /* display: none; */
         transform: translateY(-600px);
         transition: all 0.4s ease-in-out;
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 30%;
         opacity: 0;
+
         li {
           background-color: var(--border-color);
           display: flex;
@@ -89,14 +96,17 @@ const MenuItemStyled = styled.div`
           border-radius: 50%;
           margin: 0 0.5rem;
           transition: all 0.4s ease-in-out;
+
           &:hover {
             background-color: var(--primary-color);
           }
+
           a {
             transition: all 0.4s ease-in-out;
           }
         }
       }
+
       .portfolio-image {
         &::before {
           content: "";
@@ -108,6 +118,7 @@ const MenuItemStyled = styled.div`
           transition: all 0.4s ease-in-out;
         }
       }
+
       .portfolio-image:hover {
         ul {
           transform: translateY(0);
@@ -117,23 +128,29 @@ const MenuItemStyled = styled.div`
           justify-content: center;
           transition: all 0.4s ease-in-out;
           opacity: 1;
+
           li {
             transition: all 0.4s ease-in-out;
+
             &:hover {
               background-color: var(--primary-color);
             }
+
             a {
               transition: all 0.4s ease-in-out;
             }
           }
+
           svg {
             font-size: 2rem;
           }
         }
+
         &::before {
-          height: calc(100% - 32%);
+          height: calc(100% - 47%);
           width: calc(100% - 4%);
-          background-color: white;
+          background-color: rgba(0, 0, 255, 0.3);
+          backdrop-filter: blur(50px);
           opacity: 0.5;
           transform-origin: left;
         }

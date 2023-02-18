@@ -63,6 +63,9 @@ const HomePageStyled = styled.div`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
+    h1{
+      height: 164px;
+    }
 
     .icons {
       display: flex;
