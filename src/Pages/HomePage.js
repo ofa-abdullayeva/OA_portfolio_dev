@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
+import { init } from "ityped";
 
 import { RiCodepenFill } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 
 function HomePage() {
+  const textRef = useRef();
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: false,
+      strings: ["Ofeliya Abdullayeva", "Developper"],
+    });
+  }, []);
   return (
     <HomePageStyled>
       <div className="Typography">
         <h1>
-          Hi, I'm <span> Ofeliya Abdullayeva</span>
+          Hi, I'm <span ref={textRef}></span>
         </h1>
         <p className="description">
           A developer with a strong interest in projects that require both
@@ -20,11 +28,17 @@ function HomePage() {
           working in.
         </p>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/ofeliya-abdullayeva-4ba2341b2/" className="icon i-linkedin">
+          <a
+            href="https://www.linkedin.com/in/ofeliya-abdullayeva-4ba2341b2/"
+            className="icon i-linkedin"
+          >
             <BsLinkedin />
           </a>
 
-          <a href="https://github.com/ofa-abdullayeva" className="icon i-github">
+          <a
+            href="https://github.com/ofa-abdullayeva"
+            className="icon i-github"
+          >
             <BsGithub />
           </a>
           <a href="https://codepen.io/your-work" className="icon i-codepen">
