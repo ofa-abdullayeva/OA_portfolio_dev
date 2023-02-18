@@ -11,6 +11,7 @@ function HomePage() {
   useEffect(() => {
     init(textRef.current, {
       showCursor: false,
+      backDelay:1700,
       strings: ["Ofeliya Abdullayeva", "Developper"],
     });
   }, []);
