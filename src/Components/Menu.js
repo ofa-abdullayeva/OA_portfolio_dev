@@ -26,9 +26,9 @@ function Menu({ menuItem }) {
                     </a>
                   </li>
                 </ul>
+                <h6>{item.title}</h6>
+                <p>{item.text}</p>
               </div>
-              <h6>{item.title}</h6>
-              <p>{item.text}</p>
             </div>
           </div>
         );
@@ -43,8 +43,8 @@ const MenuItemStyled = styled.div`
   width: 100%;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem; 
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
   @media screen and (max-width: 920px) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -53,9 +53,12 @@ const MenuItemStyled = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
-    /* width: 90%; */
+    width: 100%;
+    height: auto;
+    
     .portfolio-content {
-      width: 100%;
+      /* width: 100%; */
+      height: 50vh;
       display: block;
       position: relative;
       overflow: hidden;

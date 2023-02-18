@@ -35,7 +35,7 @@ const portfolios = [
     },
     {
         id: 4,
-        category: 'JAVASCRİPT',
+        category: 'JavaScript',
         image: Dim,
         link1: 'https://dim-e-xidmetler.netlify.app/',
         link2: 'https://dim-e-xidmetler.netlify.app/',
@@ -53,7 +53,7 @@ const portfolios = [
     },
     {
         id: 6,
-        category: 'REACT',
+        category: 'REACT CONTEXT API',
         image: MovieProject,
         link1: 'https://movieprojectreactcontextapi.netlify.app/',
         link2: 'https://movieprojectreactcontextapi.netlify.app/',
@@ -62,7 +62,7 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'CSS',
+        category: 'HTML',
         image: CakeSchool,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
