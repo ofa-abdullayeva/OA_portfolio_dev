@@ -1,7 +1,8 @@
 import kinoroom from '../img/portImages/kinoroom.png';
 import CakeSchool from '../img/portImages/CakeSchool.png';
 import Portfolio from '../img/portImages/Portfolio.png';
-import Movieproject from '../img/portImages/movieproject.png';
+import Dim from '../img/portImages/DIM.png';
+import MovieProject from '../img/portImages/movieproject.png';
 import Calculator from '../img/portImages/Calculator-2.png';
 
 const portfolios = [
@@ -35,11 +36,11 @@ const portfolios = [
     {
         id: 4,
         category: 'JAVASCRİPT',
-        image: Movieproject,
+        image: Dim,
         link1: 'https://dim-e-xidmetler.netlify.app/',
-        link2: 'https://movieprojectreactcontextapi.netlify.app/',
-        title: 'MOVIE PROJECT',
-        text: 'REACT,CONTEXT API'
+        link2: 'https://dim-e-xidmetler.netlify.app/',
+        title: 'State Extamination Center',
+        text: 'HTML,Css,Javascript'
     },
     {
         id: 5,
@@ -53,11 +54,11 @@ const portfolios = [
     {
         id: 6,
         category: 'REACT',
-        image: Portfolio,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+        image: MovieProject,
+        link1: 'https://movieprojectreactcontextapi.netlify.app/',
+        link2: 'https://movieprojectreactcontextapi.netlify.app/',
+        title: 'MOVIE PROJECT',
+        text: 'REACT,CONTEXT API'
     },
     {
         id: 7,
